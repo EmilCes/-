@@ -1,0 +1,131 @@
+/*GENERALES*/
+
+body{
+    background-color: black;
+    color: white;
+}
+
+hr{
+    border-color: black;
+}
+
+video{
+    height: 35%;
+    width: 15%;
+    margin: 7%;
+}
+
+p{
+    font-size: 1.5rem;
+    font-family: 'Titillium Web', sans-serif;
+    text-align: center;
+}
+
+/*NO GENERALES*/
+.part-1{
+    background-color: #FFABAB;
+    border-radius: 10px;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 3%;
+    /*padding: 23%;*/
+}
+
+#parte1{
+
+    font-family: 'Loved by the King', cursive;
+    padding-top: 6%;
+    text-align: center;
+
+}
+
+#parte1 h1{
+    font-size: 4rem;
+}
+
+.part-2{
+    float: left;
+}
+
+
+/*Contador*/
+
+#contador{
+    background-color: #FFC9DE;
+    border-radius: 25px;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 2%;
+    bottom: 1.5rem;
+}
+
+#contador h2{
+    font-size: 3.5rem;
+}
+
+/*GRID*/
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+}
+
+.one{
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.two{
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.video{
+    height: 75%;
+    width: 85%;
+}
+
+.text-1{
+    margin-top: 22%;
+    margin-right: 5%;
+}
+
+.osito{
+    height: 100px;
+    width: 125px;
+}
+
+.video-2{
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+/*OCULTO*/
+
+.part-4{
+    display: none;
+}
+
+.part-5{
+    display: none;
+}
+
+/*Animmate.css*/
+.animate__animated.animate__zoomInUp{
+    --animate-duration: 4s;
+}
+
+.animate__animated.animate__bounceInUp{
+    --animate-duration: 12s;
+}
+
+.animate__animated.animate__zoomInDown{
+    --animate-duration: 18s;
+}
+
+.animate__animated.animate__backInUp{
+    --animate-duration: 5s;
+}
+
